@@ -125,10 +125,9 @@ def get_tweets():
 
     i = -1
     tweets = ''
-    for tweet in json_response['data']:
+    for _ in json_response['data']:
         i += 1
         tweets += json_response['data'][i]['text']
-        del tweet
     tweets = re.sub(r'http\S+', '', tweets).encode('ascii', 'ignore').decode('utf-8', 'ignore')
     tweets = tweets.replace(parse_arguments().query, '')
 
