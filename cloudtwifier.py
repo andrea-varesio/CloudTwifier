@@ -24,7 +24,7 @@ def show_license():
 
     print('\n**************************************************')
     print('"CloudTwifier": Generate word clouds based on Twitter content')
-    print('Copyright (C) 2022 Andrea Varesio (https://www.andreavaresio.com/).')
+    print('Copyright (C) 2023 Andrea Varesio (https://www.andreavaresio.com/).')
     print('This program comes with ABSOLUTELY NO WARRANTY')
     print('This is free software, and you are welcome to redistribute it under certain conditions')
     print('Full license available at https://github.com/andrea-varesio/CloudTwifier')
